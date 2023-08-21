@@ -3,7 +3,8 @@ package pl.example.weatherapp_v1;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class MainWindowController {
+
     @FXML
     private Label LButtonLabel;
 
@@ -12,5 +13,4 @@ public class HelloController {
         LButtonLabel.setText("button clicked");
         System.out.println("Hello from the Launcher");
     }
-
 }
